@@ -1,0 +1,59 @@
+
+
+
+article {
+  height:40%;
+}
+
+html{
+	height:100%;
+}
+body{
+	height:100%;
+}
+
+section{
+	height:60%;
+}
+
+.container-fluid{
+	height:100%;
+}
+
+.row{
+	height:50%;
+}
+
+
+.nutrition{
+	background-color: #2C3349;
+	
+
+}
+
+.diet-plan{
+	background-color: #958FBC;
+	
+}
+.calorie-chart{
+	background-color: #D2847F;
+}
+
+.exercises{
+	background-color: #9592A1;
+}
+
+.nutrition-blog{
+	height: 80%;
+}
+
+header{
+	background-color: #1F273E;
+    height:10%;
+	color: #ffffff;
+}
+footer{
+	height: 10%;
+	background-color: #00ff00;
+}
+
