@@ -7,8 +7,9 @@ body{
 }
 
 article {
-  height:5.5em;
+  height:24em;
   /*font-size:598px;*/
+  padding:30px;
 }
 
 
@@ -16,17 +17,20 @@ article {
 
 
 header{
-	background-color: #1F273E;
-    height:8em;
-	color: #ffffff;
+	padding: 10px;
+	background-color: #e6e6e6;
+    height:6em;
+	color:#1a1a1a;
 }
 
 footer{
-	
+	padding:10px;
 	background-color: #00ff00;
 	/*height: 8em;*/
 	height: 60px;
 }
+
+
 
 /* inndex-page*/
 #container{
@@ -40,20 +44,51 @@ footer{
 	height: 60px;
 }
 
+.tile{
+	width:100%;
+	height: 100%;
+	font-size: 40px;
+	display: inline-block;
+    
+
+}
+
+.tile:link{
+	color:#00ff00;
+	text-decoration: none;
+
+}
+
+.tile:visited{
+	color:#ffffff;
+	text-decoration: none;
+}
+.tile:hover{
+	color:#ffcccc;
+	text-decoration:underline;
+}
+.tile:active{
+	color:#b3ffff;
+}
+
 .nutrition{
 	background-color: #2C3349;
+	text-align: center;
 }
 
 .diet-plan{
 	background-color: #958FBC;
+	text-align: center;
 	
 }
 .calorie-chart{
 	background-color: #D2847F;
+	text-align: center;
 }
 
 .exercises{
 	background-color: #9592A1;
+	text-align: center;
 }
 
 
@@ -65,5 +100,5 @@ footer{
 
 /*diet plan page css*/
 .row-height{
-  height:20em;
+  height:10em;
 }
