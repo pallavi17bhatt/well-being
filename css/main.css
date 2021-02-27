@@ -3,36 +3,42 @@ html{
 }
 body{
 	height:100%;
+
 }
 
 article {
-  height:40%;
+  height:5.5em;
+  /*font-size:598px;*/
 }
 
-section{
-	height:60%;
-}
+
+
+
 
 header{
 	background-color: #1F273E;
-    height:10%;
+    height:8em;
 	color: #ffffff;
 }
 
 footer{
-	height: 10%;
+	
 	background-color: #00ff00;
+	/*height: 8em;*/
+	height: 60px;
 }
 
-.container-fluid{
-	height:100%;
+/* inndex-page*/
+#container{
+	min-height: 100%;
+	margin-bottom: -60px;
 }
 
-.row{
-	height:50%;
+#container:after{
+	content:"";
+	display:block;
+	height: 60px;
 }
-
-/*home page*/
 
 .nutrition{
 	background-color: #2C3349;
@@ -58,6 +64,6 @@ footer{
 }
 
 /*diet plan page css*/
-.row-diet-plan{
-  height:33.4%;
+.row-height{
+  height:20em;
 }
